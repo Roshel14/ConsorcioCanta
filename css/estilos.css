@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main-container{
+  
+    background-image:url(../img/visualización/construcción_0.jpg);
+    background-size: cover;
+    height: 100vh;
+  
+    img{
+  
+      height: 70px;
+      width: 80%;
+  &:hover{
+    transform: scale(1.1);
+    animation: fadeIn .4s linear;
+    
+
+  }
+    }
+  }
+  
+  
+  
+  .right {
+    position: absolute;
+    width: 380px;
+    left: 60%;
+    height: 600px;
+    top: calc(50% - 580px / 2);
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 145px;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+
+    i{
+        font-size: 25px;
+        margin: 0 10px;
+
+        &:hover{
+            color: #FFC107;
+        }
+      }
+
+  }
+  
+
+  
+
+  
+ 
+  form {
+    margin-top: 50px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    color: azure;
+    padding: 20px 10px 20px 5px;
+    border: 2px solid beige;
+    width: 280px;
+    height: 45px;
+    margin: 5px 15px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  .contra {
+    margin-bottom: 50px;
+  }
+  
+  .errorMensajeForm{
+    margin-bottom: 20px;
+  }
+  
+  ::placeholder {
+    color: seashell;
+    font-size: 18px;
+  }
+  
+  label .fa-envelope {
+    font-size: 20px;
+    position: absolute;
+    padding: 24px 32px;
+    margin-top: -5px;
+    margin-left: 5px;
+    color: rgba(242, 246, 250, 0.7);
+  }
+  
+  label .fa-lock {
+    font-size: 20px;
+    position: absolute;
+    padding: 24px 32px;
+    margin-left: 7px;
+    margin-top: -6px;
+    color: rgba(242, 246, 250, 0.7);
+  }
+  
+  .keepme {
+    color: #d4efff;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  label .fa-regular {
+    font-size: 15px;
+    position: absolute;
+    padding: 25px 0px;
+    margin-left: -60px;
+    margin-top: -6px;
+    color: rgba(210, 230, 250, 0.7);
+  }
+  
+  label i.fa-eye {
+    color: #88183a;
+  }
+  
+  input[type="checkbox"] {
+    vertical-align: middle;
+    margin: 30px 3px;
+    font-weight: bold;
+    height: 18px;
+    width: 18px;
+  }
+  
+  button {
+    width: 260px;
+    height: 45px;
+    left: 1273px;
+    top: 780px;
+    margin: 0px 20px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    background: rgba(255, 255, 255, 0.89);
+    border-radius: 25px;
+
+    &:hover{
+        background: #015b7e;
+        color: #fff;
+    }
+  }
+  
+  .link {
+    text-align: center;
+    display: block;
+    margin: 0 18px;
+    color: #e6f6ff;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+
+    a{
+        color: #015b7e;
+        font-weight: bold;
+
+        &:hover{
+            color: red;
+        }
+      }
+  }
+  .container-fluid{
+    .img{
+      width: 30%;
+      height: 20%;
+    }
+
+  }
+
+  
+  
+  
+  small {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  small > a {
+    color: #fff;
+    font-size: 11px;
+  }
+  
+  /* Para JS */
+  .error {
+    border: solid 2px rgb(253, 29, 29);
+  }
+  
+  .mensajeError {
+    color: rgb(255, 47, 47);
+    font-size: smaller;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .normal {
+    font-size: normal;
+    font-weight: normal;
+  }
+  .navtop {
+    background-color: darkblue;
+    height: 60px;
+    width: 100%;
+    border: 0;
+  }
+  .navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+  }
+  .navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+  }
+  .navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #eaebed;
+    font-weight: normal;
+  }
+  .navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c1c4c8;
+    font-weight: bold;
+  }
+  .navtop div a i {
+    padding: 2px 8px 0 0;
+  }
+  .navtop div a:hover {
+    color: #eaebed;
+  }
+  body.loggedin {
+    background-color: #f3f4f7;
+  }
+  .content {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #e0e0e3;
+    color: #4a536e;
+  }
+  .content > p, .content > div {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    margin: 25px 0;
+    padding: 25px;
+    background-color: #fff;
+  }
+  .content > p table td, .content > div table td {
+    padding: 5px;
+  }
+  .content > p table td:first-child, .content > div table td:first-child {
+    font-weight: bold;
+    color: #4a536e;
+    padding-right: 15px;
+  }
+  .content > div p {
+    
+    padding: 5px;
+    margin: 0 0 10px 0;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .main-container {
+  
+      background: url(img/visualización/construcción_0.jpg);
+    }
+  
+    .right {
+      left: calc(68% - 500px / 2);
+      background: rgba(0, 0, 0, 0.9);
+    }
+  }
+  
