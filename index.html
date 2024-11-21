@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consorcio Ejecucion Canta</title>
+    <link rel="author" href="https://github.com/Roshel14" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!--script src="script.js" defer></script-->
+
+    <!-- Link a Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/a572cee94c.js" crossorigin="anonymous">
+    </script>
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+
+    <!-- Flavicon -->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+
+    <!-- Meta -->
+    <meta name="keywords" content="html,css,responsive,3d icon" />
+    <meta name="description" content="Login de la empresa constructora consorcio Ejecucion Canta"/>
+    <meta name="author" content="Roger justo adriano" />
+
+  </head>
+  <body>
+    <main class="main-container">
+      <section class="right">
+        <h1 class="title">
+          <i class="fa-solid fa-hard-hat"></i>  Inicio sesion  
+          <i class="fa-solid fa-hard-hat"></i>
+        </h1>
+          <img src="img/logo.png" alt="">
+        <form class="form-container" action="autenticacion.php" method="post">
+          <label class="username" for="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <input id="email" name="email" type="text" class="user-input" placeholder="E-Mail" required/>
+          </label>
+          <p id="errorMail" class="errorMensajeForm"></p>
+          <div id="contra">
+            <label class="password" for="password">
+              <i class="fa-solid fa-lock"></i>
+              <input id="password" type="password" name="password" class="pass-input" placeholder="Password"    />
+              <i class="fa-regular fa-eye-slash" id="contrasinal_visibility"></i>
+            </label>
+            <p id="errorpassword" class="errorMensajeForm"></p>
+          </div>
+          <label id="labelRemember" class="keepme" for="remember">
+            <input id="remember" type="checkbox" checked="true" />
+            recordar Contraseña
+          </label>
+          <button type="submit" id="enviar">Login</button>
+          <p class="link">
+            ¿Olvidaste tu Contraseña?
+            <a href="#">Click Aqui</a>
+          </p>
+        </form>
+      </section>
+    </main>
+   
+  </body>
+</html>
